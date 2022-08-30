@@ -1,0 +1,20 @@
+{
+  "name": "nasa-project-local",
+  "version": "1.0.0",
+  "description": "LOCAL version of project DO NOT DELETE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LRAB1/nasa-project-local.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LRAB1/nasa-project-local/issues"
+  },
+  "homepage": "https://github.com/LRAB1/nasa-project-local#readme"
+}

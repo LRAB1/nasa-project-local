@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/LRAB1/nasa-project-local/issues"
   },
-  "homepage": "https://github.com/LRAB1/nasa-project-local#readme"
+  "homepage": "https://github.com/LRAB1/nasa-project-local#readme",
+  "dependencies": {
+    "jest": "^29.0.1"
+  }
 }

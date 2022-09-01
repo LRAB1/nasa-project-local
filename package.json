@@ -1,0 +1,30 @@
+{
+  "name": "nasa-project-local",
+  "version": "1.0.0",
+  "description": "LOCAL version of project DO NOT DELETE",
+  "main": "index.js",
+  "scripts": {
+    "install-server": "npm install --prefix server",
+    "install-client": "npm install --prefix client",
+    "install": "npm run install-server && npm run install-client",
+    "server": "npm run watch --prefix server",
+    "client": "npm start --prefix client",
+    "watch": "npm run server & npm run client",
+    "deploy": "npm run build --prefix client && npm start --prefix server",
+    "test": "npm run test -- prefix server && npm run test --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LRAB1/nasa-project-local.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LRAB1/nasa-project-local/issues"
+  },
+  "homepage": "https://github.com/LRAB1/nasa-project-local#readme",
+  "dependencies": {
+    "jest": "^29.0.1"
+  }
+}

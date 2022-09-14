@@ -7,7 +7,7 @@ const launchesSchema = new mongoose.Schema({
     },
     launchDate: {
         Date,
-        //required: true,
+        //required: true, //seems to be depricated
     },
     mission: {
         type: String,
